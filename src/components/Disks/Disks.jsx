@@ -11,7 +11,7 @@ export default function Disks() {
   const FetchApi = async function FetchApi() {
     try {
       let arr = [];
-      const response = await fetch('http://localhost:8000/apigorillaz/v1/disk');
+      const response = await fetch('https://gorillazapi.onrender.com/v1/disk');
       const data = await response.json();
       data.map((data) => {
         arr.push(data);
