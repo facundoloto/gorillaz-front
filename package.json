@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build && cp ./_redirects ./dist/_redirects",
+    "preview": "vite preview",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write ."
   },
   "dependencies": {
     "@coreui/react": "^4.4.0",
