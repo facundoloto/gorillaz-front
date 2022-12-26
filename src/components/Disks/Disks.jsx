@@ -51,9 +51,9 @@ export default function Disks() {
     </Carousel>
                 <Card.Body className="info-disk ">
                     {
-                      data.songs.map((song) => {
+                      data.songs.map((song, index) => {
                         return (
-                            <Card.Text className="text-center">{song.name}  <CLink href={song.url} target='_blank'>🎧</CLink></Card.Text>
+                            <Card.Text className="text-center">{index+1}-{song.name}  <CLink href={song.url} target='_blank'>🎧</CLink></Card.Text>
                             )
                              }
                               ) 
