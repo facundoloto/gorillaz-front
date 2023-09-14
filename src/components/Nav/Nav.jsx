@@ -13,10 +13,10 @@ export function NavbarGorillaz() {
           <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="exmember">Ex-Member</Nav.Link>
+          <Nav.Link href="/exmember">Ex-Member</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="disks">Discography</Nav.Link>
+          <Nav.Link href="/disk">Discography</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="disabled" disabled>
