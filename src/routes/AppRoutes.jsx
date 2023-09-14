@@ -6,11 +6,11 @@ import Disks from '../components/Disks/Disks.jsx';
 
 export default function AppRoutes() {
   return (
-      <Routes>
-        <Route path='/' element={<Member />} />
-        <Route path='/exmember' element={<ExMember />} />
-        <Route path='/disks' element={<Disks />} />
-        {/* <Route path='/' element={<Doc />} /> */}
-      </Routes>
+    <Routes>
+      <Route path='/' element={<Member />} />
+      <Route exac path='/exmember/' element={<ExMember />} />
+      <Route exac path='/disks/' element={<Disks />} />
+      {/* <Route path='/' element={<Doc />} /> */}
+    </Routes>
   );
 }
