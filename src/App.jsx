@@ -10,9 +10,7 @@ function App() {
     <>
       <NavbarGorillaz />
       <Header />
-      <BrowserRouter>
-        <AppRoutes />
-      </BrowserRouter>
+      <AppRoutes />
       <Footer />
     </>
 
