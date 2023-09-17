@@ -1,9 +1,22 @@
-.footer{
-    width:100%;
-    }
-    
-    .nes-container {
-    border:none !important;
-    width:100%;
-    }
-    
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+}
+
+.contain-footer {
+    justify-content: flex-end;
+}
+
+.nes-container {
+
+    border: none !important;
+    width: 100%;
+}
+
+@media only screen and (max-width: 990px) {
+    /* .footer {
+        ma
+    } */
+}

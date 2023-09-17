@@ -12,7 +12,7 @@ export function NavbarGorillaz() {
   // };
 
   return (
-    <div class="Navbar-gorillaz">
+    <div className="Navbar-gorillaz">
 
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>

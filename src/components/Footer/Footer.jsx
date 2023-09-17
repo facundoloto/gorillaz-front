@@ -6,18 +6,20 @@ import './Footer.css';
 
 export function Footer() {
   return (
-    <div class="nes-container is-centered ">
-      <CFooter className='footer'>
-        <div>
-          <span>Facundo Loto</span>
-        </div>
-        <div>
-          <CLink href="https://github.com/facundoloto">GitHub</CLink>
-        </div>
-        <div>
-          <CLink href="https://www.linkedin.com/in/facundo-emanuel-loto-496384177/">Linkedin</CLink>
-        </div>
-      </CFooter>
+    <div className="nes-container is-centered ">
+      <div className="footer">
+        <CFooter className='contain-footer'>
+          <div>
+            <span>Facundo Loto</span>
+          </div>
+          <div>
+            <CLink href="https://github.com/facundoloto">GitHub</CLink>
+          </div>
+          <div>
+            <CLink href="https://www.linkedin.com/in/facundo-emanuel-loto-496384177/">Linkedin</CLink>
+          </div>
+        </CFooter>
+      </div>
     </div>
   );
 };
